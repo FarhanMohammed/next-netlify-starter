@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <div>
       <Head>
-        <title>Memory Game</title>
+        <title>FM's Awesome Memory Game</title>
         <meta name="description" content="Memory Game using Next.js" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
