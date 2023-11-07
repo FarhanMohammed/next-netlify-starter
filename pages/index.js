@@ -34,7 +34,7 @@ const Home = () => {
       </Head>
 
       <main>
-        <h1>Memory Game</h1>
+        <h1>FM's Awesome Memory Game</h1>
         <MemoryGame />
       </main>
 
