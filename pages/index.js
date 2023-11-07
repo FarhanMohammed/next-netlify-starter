@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-import Snake from '../components/Snake';
+import MemoryGame from '@components/MemoryGame';
 
 // export default function Home() {
 //   return (
@@ -23,18 +23,19 @@ import Snake from '../components/Snake';
 //   )
 // }
 
+
 const Home = () => {
   return (
     <div>
       <Head>
-        <title>Snake Game</title>
-        <meta name="description" content="Snake Game using Next.js" />
+        <title>Memory Game</title>
+        <meta name="description" content="Memory Game using Next.js" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1>Snake Game</h1>
-        <Snake />
+        <h1>Memory Game</h1>
+        <MemoryGame />
       </main>
 
       <footer>
@@ -45,6 +46,7 @@ const Home = () => {
 };
 
 export default Home;
+
 
 
 
